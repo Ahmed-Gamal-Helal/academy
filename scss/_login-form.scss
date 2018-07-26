@@ -1,0 +1,176 @@
+.login-page {
+    margin: 5em 0;
+    .image-paragraph {
+        position: relative;
+        height: 415px;
+        width: 350px;
+        margin: auto;
+        p, .sending-button {
+            position: absolute;
+            right: 10%;
+            left: 10%;
+            font-size: 21px;
+            font-family: 'cairo-bd';
+            color: $white;
+            line-height: 2.5;
+        }
+        p {
+            top: 3.5em;
+        }
+        .sending-button {
+            top: 12em;
+            a {
+                color: black;
+                background-color: $gold;
+                padding: .25em 1.5em;
+                border-radius: 4px;
+                font-size: 18px;
+            }
+        }
+        p.conditios {
+            line-height: 2;
+            top: 1.5em;
+            font-size: 1.7em;
+        }
+        img {
+            height: 415px;
+            width: 320px;
+        }
+    }
+    .form-login {
+        background-color: $white;
+        min-height: 415px;
+        padding: 6em 4em;
+        border-radius: 4px;
+        form {
+            .col-sm-7, .col-sm-12 {
+                padding: 0;
+            }
+            .forgot-pass {
+                font-family: 'cairo-r';
+            }
+            .form-grouping-btns {
+                // margin-top: 4em;
+                .enter-login {
+                    background-color: $gfooter;
+                    color: $white;
+                    font-family: 'cairo-bd';
+                    padding: 1em 3em;
+                    border-radius: 4px;
+                    margin-left: 1em;
+                    font-size: 1.2em;
+                    &:hover {
+                        background-color: #2bbbad;
+                    }
+                }
+                a {
+                    color: $black;
+                }
+            }
+            label {
+                line-height: 4;
+                color: $gfooter;
+                font-family: 'cairo-bd';
+                font-size: 14px;
+                padding: 0;
+                span {
+                    color: red;
+                    margin-right: .1em;
+                }
+            }
+            input, select {
+                height: 4em;
+                border: 1px solid #DDD;
+                margin-bottom: 1.5em;
+            }
+            textarea {
+                border: 1px solid #DDD;
+                padding: 1.5em 1.5em 0 0;
+            }
+            input, textarea {
+                width: 100%;
+                border-radius: 4px;
+                padding-right: 1.5em;
+            }
+            input[type="checkbox"] {
+                width: auto;
+                height: auto;
+            }
+        }
+    }
+}
+.contact-us {
+    margin: 7em 0 5em 0;
+    .image-paragraph img {
+        height: 500px;
+    }
+    .contacting-tabs {
+        padding: 2em;
+        background-color: white;
+        margin-top: 2em;    
+    }
+    .form-login {
+        height: 446px;
+        padding: 2em;
+        margin-top: 2em;
+        form {
+            textarea {
+                // height: 7em;
+                width: 100%;
+                border: 1px solid #DDD;
+                border-radius: 4px;
+                padding: 1em 1.5em 0 0;
+            }
+        }
+    }
+    .contacting-tabs-one {
+        margin: 3em 0;
+        .contacting-tabs {
+            .first-contacting-tab {
+                i {
+                    font-size: 3em;
+                    color: $gold;
+                    line-height: 1.25;
+                }
+            }
+            .second-contacting-tab {
+                a {
+                    display: block;
+                    color: $gfooter;
+                    font-size: 16px;
+                }
+                span {
+                    font-family: 'cairo-bd';
+                    line-height: 2;
+                    font-size: 1.25em;
+                }
+            }
+        }
+    }
+}
+.register-page {
+    .form-login {
+        height: auto;
+    }
+}
+.change-password {
+    .form-login {
+        padding: 3em 4em;
+    }
+}   
+.contact-us {
+    .message-us-now {
+        h3 {
+            margin: 0;
+        }
+    }
+}
+.margin-adjust-attach {
+    margin-bottom: 2em;
+}
+@media (max-width:991px) {
+    .login-page .form-login {
+        height: auto;
+        margin-top: 2em;
+    }
+}

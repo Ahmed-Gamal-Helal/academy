@@ -1,0 +1,77 @@
+// wall-third
+#wall-third {
+    margin: 6em 0;
+    .what-to-say {
+        form {
+            background-color: $white;
+            padding: 2em 2em 5em 2em;
+            border-radius: 4px;
+            textarea {
+                width: 100%;
+                background-color: $bg;
+                padding: 1em;
+                border: none;
+            }
+            .publish-now {
+                text-align: left;
+                margin-bottom: 2em;
+                button {
+                    padding: .5em 3em;
+                    border-radius: 2em;
+                    background-color: $gfooter;
+                    color: $white;
+                    font-family: 'cairo-bd';
+                    &:hover {
+                        background-color: #2bbbad;
+                    }
+                }
+            }
+            .commented-people {
+                border-bottom: 2px solid $bg;
+                padding: 1em;
+                // margin: 1em 0 0 0;
+                .profile-image {
+                    text-align: center;
+                    img {
+                        border-radius: 50%;
+                        height: 50px;
+                        width: 50px;
+                    }
+                }
+                .profile-body {
+                    a {
+                        color: $black;
+                    }
+                }
+                .profile-likes {
+                    line-height: 3.75;
+                    text-align: left;
+                    a {
+                        color: $gfooter;
+                        margin-left: .5em;
+                        &:hover {
+                            color: #204fa5;
+                        }
+                    }
+                }
+                &:hover {
+                    background-color: $bg;
+                    .profile-body {
+                        a {
+                            color: $gfooter;
+                        }
+                    }
+                }
+            }
+            .come-and-share {
+                p {
+                    border: 1px solid #f1f1f1;
+                    padding: 1em;
+                    margin-top: 2em;
+                    font-size: 12px;
+                    line-height: 1;
+                }
+            }
+        }
+    }
+}

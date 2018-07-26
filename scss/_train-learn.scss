@@ -1,0 +1,69 @@
+.training-education {
+    margin: 3em 0;
+    .train-learn {
+        padding: 2em 2em 1em;
+        text-align: center;
+        border: 1px solid #DDD;
+        -webkit-transition: all .25s ease-in-out;
+        -moz-transition: all .25s ease-in-out;
+        transition: all .25s ease-in-out;
+        img {
+            height: 5em;
+            width: 5em;
+            margin: auto;
+        }
+        h3 {
+            font-family: 'cairo-bd';
+        }
+        &:hover {
+            -webkit-transform: translateY(-5%);
+            -moz-transform: translateY(-5%);
+            transform: translateY(-5%);
+            background-color: #eeeeee8a;
+        }
+    }
+}
+// مركز الاعمال الاكاديمى
+.central-academy {
+    margin: 5em 0 7em 0;
+    h3 {
+        color: $gfooter;
+        margin: 1em 0;
+    }
+    p {
+        font-family: 'cairo-r';
+    }
+    p.base-par {
+        margin: 1em auto 3em auto;
+        width: 75%;
+        line-height: 2;
+    }
+    .parts-divided {
+        h5 {
+            font-family: 'cairo-b';
+            margin-bottom: 1.5em;
+        }
+        p {
+            line-height: 1.75;
+        }
+    }
+    
+}
+// adverising-one
+.adverising-one {
+    margin: 4em 0;
+    img {
+        height: 170px;
+    }
+}
+
+@media (max-width:850px) {
+    .training-education {
+        .train-learn {
+            margin-bottom: 1em;
+            h3 {
+                font-size: 1.25em;
+            }
+        }
+    }
+}

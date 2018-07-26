@@ -1,0 +1,229 @@
+.employment-vacancies {
+    margin: 5em 0;
+    select {
+        border: 1px solid #DDD;
+        border-radius: 4px;
+        background-color: transparent;
+        margin-right: .5em;
+    }
+    .left-viewed {
+        text-align: left;
+        p {
+            font-family: 'cairo-sb';
+            margin-bottom: 2em;
+        }
+        select:nth-child(1) {
+            margin-left: .5em;
+        }
+    }
+    .nama-example {
+        background-color: $white;
+        padding: 1.5em;
+        margin-bottom: 1.5em;
+        .vacancy-details {
+            border-right: 1px solid #DDD;
+            padding-right: 1.5em;
+            a, ul {
+                line-height: 2;
+            }
+            ul {
+                li {
+                    font-size: 13px;
+                    span {
+                        font-family: 'cairo-bd';
+                    }   
+                }
+            }
+            a {
+                color: $gfooter;
+                font-size: 16px;
+            }
+            p {
+                font-size: 12px;
+                margin-top: 1em;
+            }
+        }
+        .publishing-date {
+            p {
+                margin-bottom: 1em;
+                span {
+                    font-family: 'cairo-bd';
+                }
+            }
+            ul {
+                li {
+                    a {
+                        color: $black;
+                        i {
+                            color: $gold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.showing-vacancy {
+    margin: 5em 0;
+    .safety-engineer {
+        .job-description {
+            a {
+                display: block;
+            }
+        }
+    }
+    .logo-of-company {
+        a {
+            line-height: 5;
+            img {
+                width: 115px;
+            }
+        }
+    }
+    .job-description {
+        a {
+            color: $black;
+            font-size: 24px;
+        }
+        span {
+            font-size: 18px;
+        }
+    }
+    .listed-dates {
+        li {
+            line-height: 2.5;
+            font-size: 12px;
+            span {
+                font-family: 'cairo-bd';
+            }
+        }
+    }
+    .title-grouping {
+        background-color: #e0eff0;
+        padding: 1.5em;
+        margin-bottom: 3em;
+    }
+    .registering-now {
+        ul {
+            li {
+                margin-bottom: .5em;
+                a {
+                    color: $black;
+                    font-size: 16px;
+                }
+                i {
+                    color: $gold;
+                    font-size: 21px;
+                    margin-left: .5em;                
+                }
+            }
+        }
+    }
+}
+.listed-lists {
+    .job-detailed-desc {
+        border: 1px solid #DDD;
+        border-radius: 4px;
+        padding: 1.5em;
+        margin-bottom: 2em;
+        h4 {
+            color: $gold;
+            border-bottom: 1px solid #DDD;
+            padding-bottom: 1em;
+        }
+        ul {
+            padding-right: 2em;
+            li {
+                line-height: 2.5;
+                font-size: 14px;
+                span {
+                    color: $gfooter;
+                    font-family: 'cairo-sb';
+                }
+            }
+        }
+    }
+    .left-listed-lists {
+        margin-bottom: 3.5em;
+        h4 {
+            color: $gold;
+            margin-bottom: 1em;
+        }
+        ul {
+            li {
+                line-height: 2.5;
+                margin-right: 2.5em;
+                &:before {
+                    font: normal normal normal 14px/1 FontAwesome;
+                    content: "\f104";
+                    right: 1.5em;
+                    position: absolute;
+                    color: #555;
+                    line-height: 2.5;
+                }
+            }
+        }
+    }
+}
+.verified-memberships {
+    margin: 5em 0;
+    .flags {
+        ul {
+            li {
+                position: relative;
+                padding-right: 3.5em;
+                line-height: 3;
+                font-family: 'cairo-sb';
+                img {
+                    height: 20px;
+                    width: 30px;
+                    position: absolute;
+                    right: 0;
+                    top: 10px;
+                }
+                span {
+                    float: left;
+                }
+            }
+        }
+    }
+}
+#trainers-mem, #inst-mem, #all-agents {
+    margin: 3em 0;
+    .mem-numbers {
+        margin-bottom: 2em;
+        img {
+            height: 130px;
+        }
+        p {
+            background-color: #008291;
+            color: $white;
+            font-family: 'cairo-sb';
+            padding: 1em 0;
+        }
+    }
+}
+.questionaire {
+    background-color: $white;
+    padding: 1.5em 2em .5em 0;
+    margin-bottom: 2em;
+    p {
+        margin-bottom: 2em;
+        font-family: 'cairo-sb';
+    }
+    .radio {
+        label {
+            margin-bottom: .75em;
+            font-family: 'cairo-r';
+        }
+    }
+}
+.two-buttons {
+    margin: 2em 0 6em 0;
+    button.delivery {
+        background-color: $gold ;
+        &:hover {
+            background-color: #fa8100;
+        }
+    }
+}

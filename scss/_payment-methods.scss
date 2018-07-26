@@ -1,0 +1,69 @@
+.payment-methods {
+    margin: 6em 0;
+    h4 {
+        color: $gfooter;
+        margin-bottom: 6em; 
+    }
+    .bank-transfer, .visa-transfer {
+        background-color: #eeecec;
+        width: 60%;
+        margin: auto;
+        padding: 3em 0 1em 0;
+        border-radius: 4px;
+        margin-bottom: 4em;
+        border: 2px solid #e7e7e7;
+        img {
+            height: 54px;
+            width: 90px;
+        }
+        h3 {
+            font-size: 29px;
+            font-family: 'cairo-r';
+            color: #209ccc;
+            margin-top: 1em;
+        }
+    }
+}
+.payment-bank-trans {
+    .form-login {
+        padding: 3em;
+    }
+    .image-paragraph p.conditios {
+        line-height: 2.5;
+        top: 4.5em;
+    }
+    .form-grouping-btns {
+        margin-top: 2em;
+    }
+}
+.bank-division {
+    background-color: $white;
+    padding: 2em;
+    margin-top: 4em;
+    h5 {
+        font-size: 21px;
+        margin-bottom: 1em;
+        a {
+            color: $gfooter;
+        }
+    }
+    ul {
+        li {
+            line-height: 2.5;
+            font-family: 'cairo-sb';
+            font-size: 15px;
+        }
+    }
+}
+.payment-visa {
+    .form-login {
+        padding: 4em 3em;
+    }
+    .image-paragraph p.conditios {
+        line-height: 2.5;
+        top: 6em;
+    }
+    .form-grouping-btns {
+        margin-top: 3em;
+    }
+}

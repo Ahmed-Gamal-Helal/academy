@@ -1,0 +1,97 @@
+.services {
+    margin: 7em 0;
+    .row-example {
+        background-color: $white;
+        margin-bottom: 2em;
+        border-bottom: 2px solid $black;
+        height: 371px;
+        .seperate-img {
+            width: 100%;
+            img {
+                height: 225px;
+                width: 100%;
+            }
+        }
+        .seperate-desc-2 {
+            a {
+                display: block;
+                color: $black;
+                margin: 2em;
+                &:hover {
+                    color: $gfooter;
+                }
+            }
+        }
+    }
+}
+a.order-services {
+    background-color: $gfooter;
+    color: $white !important;
+    padding: .5em 2em;
+    font-family: 'cairo-bd';
+    border-radius: 4px;
+    margin-top: 1.5em;
+    width: 10em;
+    &:hover {
+        background-color: #2bbbad;
+    }
+}
+.order-your-service {
+    margin: 6em 0;
+    h5 {
+        margin-bottom: 2em;
+        color: $gfooter;
+    }
+    .formating-form {
+        background-color: $white;
+        padding: 1.5em;
+        margin-bottom: 2em;
+        form {
+            input {
+                height: 4em;
+            }
+            textarea {
+                padding-top: 1em;
+            }
+            input, textarea {
+                width: 100%;
+                border-radius: 4px;
+                padding-right: 1.5em;
+                border: 1px solid #DDD;
+                margin-bottom: 1.5em;
+            }
+            .green-button {
+                button {
+                    width: 100%;
+                    padding: 1em 0;
+                }
+            }
+        }
+    }
+    .col-xs-4 {
+        padding: 0;
+    }
+    ul.socials-yt {
+        float: left;
+        margin-bottom: .5em;
+    }
+    .decription-order-par {
+        margin-top: 3em;
+        p {
+            line-height: 2;
+            font-family: 'cairo-r';
+        }
+    }
+    .order-service-img {
+        img {
+            height: 471px;
+        }
+    }
+}
+.login-page .image-paragraph p.conditios-2 {
+    top: 7.5em;
+}
+#input-file-upload {
+    border: 0;
+    box-shadow: 0;
+}

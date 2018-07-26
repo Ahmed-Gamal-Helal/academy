@@ -1,0 +1,174 @@
+header {
+    z-index: 999;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    nav.navbar {
+        margin: 0;
+    }
+    .container, .container-fluid {
+        padding: 0;
+        ul.navbar-nav {
+            float: left;
+            li:nth-child(1) {
+                border-right: 1px solid #847878;
+                border-bottom-right-radius: 4em;
+                padding-right: 2em;
+            }
+            li {
+                a {
+                    color: $gold;
+                    font-size: 12.5px;
+                    &:hover {
+                        background-color: transparent;
+                        color: $white;
+                    }
+                }
+                img {
+                    height: 15px;
+                    width: 22px;
+                }
+            }
+        }
+        .navbar-header {
+            a {
+                img {
+                    padding: 1em 6em 1em 2.5em;
+                    background-color: white;
+                    margin-top: -1.5em;
+                    border-bottom-left-radius: 6em;
+                    border-top-left-radius: 6em;
+                }
+            }
+        }
+        ul.second-layer {
+            padding: 2em;
+            border-bottom-right-radius: 4em;
+            border-top-right-radius: 4em;
+            border-right: 1px solid #262627;
+            border-top: 1px solid #262627;
+            border-bottom: 1px solid #262627;
+            background-color: rgba(0,0,0,.7);
+            &::after {
+                
+            }
+            li:nth-child(1) {
+                border-right: none;
+                border-bottom-right-radius: 0;
+                padding-right:0;
+            }
+            li {
+                a {
+                    color: $white;
+                    &:hover {
+                        color: $gold;
+                    }
+                }
+            }
+            li {
+                i.fa-user {
+                    color: $black;
+                    background-color: $gold;
+                    width: 20px;
+                    text-align: center;
+                    height: 20px;
+                    line-height: 1.65;
+                    border-radius: 50%;
+                    margin-left: .5em;
+                }
+
+            }
+        }
+    }
+    // .language {
+    //     ul.navbar-nav {
+    //         float: left;
+    //     }
+    // }
+    nav {
+        .navbar-header {
+            .navbar-brand {
+                padding: 0;
+                .brand-home {
+                    padding: 1em 30% 1em 2.5em;
+                    background-color: white;
+                    margin-top: 1em;
+                    border-bottom-left-radius: 6em;
+                    border-top-left-radius: 6em;
+                }
+            }
+        }
+        .right-side-nav {
+            float: left;
+            background-color: rgba(0,0,0,.5);
+            padding: 2em;
+            border: 1px solid #2b2929;
+            border-bottom-right-radius: 6em;
+            border-top-right-radius: 6em;
+            a {
+                color: $white;
+            }
+        }
+    }
+}
+.ddd {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+}
+@media (max-width:770px) {
+    header { 
+        position: relative;
+        background-color: $black;
+        .navbar-header {
+            .fa-bars {
+                color: $gold;
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+        .container ul.navbar-nav,
+        .container-fluid ul.navbar-nav   {
+            float: none;
+            li {
+                text-align: center;
+            }
+        }
+        .navbar {
+            margin: 0;
+        }
+    }
+    .store-acad {
+        float: right !important;
+        margin-right: .5em;
+        color: $gold;
+        &:hover {
+            color: $white;
+        }
+    }
+}
+#myNavbar-2 {
+    .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+        background-color: transparent;
+    }
+    .navbar-nav>li{ 
+        .dropdown-menu {
+            background-color: $black;
+            li {
+                padding: 1em 0;
+                &:hover {
+                    background-color: $white;
+                }
+            }
+            a {
+                color: $gold;
+                font-family: 'cairo-bd';
+            }
+        }
+    }
+}

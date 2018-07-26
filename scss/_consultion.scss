@@ -1,0 +1,110 @@
+.consultion {
+    background-color: white;
+    padding: 6em 0;
+    .container-fluid {
+        padding: 0;
+        .col-sm-6 {
+            padding: 0;
+        }
+    }
+    .paragraph-viewing {
+        margin-right: -19%;
+        background-color: white;
+        padding: 5em;
+        margin-top: 6em;
+        height: 392px;
+        p {
+            line-height: 3;
+            font-family: 'cairo-sb';
+        }
+    }
+}
+.asking-for-consultion {
+    margin-bottom: 6em;
+    h3 {
+        position: relative;
+        margin: 2em 0;
+        color: $gfooter;
+        &::before {
+            content: "";
+            position: absolute;
+            right: 48.5%;
+            left: 0;
+            top: 1.87em;
+            bottom: 0;
+            width: 20px;
+            height: 4px;
+            background: #008291;
+            z-index: 2;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            right: 44%;
+            left: 0;
+            top: 1.95em;
+            bottom: 0;
+            width: 136px;
+            height: 2px;
+            background: #e4e4e4;
+        }
+    }
+    p.fill-template {
+        margin: 3em 0;
+        font-family: 'cairo-r';
+        font-size: 18px;
+    }
+    form {
+        select, input {
+            height: 4em;
+            margin-bottom: 1em;
+        }
+        select, input, textarea {
+            width: 100%;
+            border: none;
+            background-color: $white;
+            padding: 1em 4em 1em 1em;
+            border-radius: 4px;
+            position: relative;
+            &::placeholder {
+                color: black !important;
+            }
+        }
+        img {
+            height: 28px;
+            width: 2.5em;
+            position: absolute;
+            top: 1em;
+            right: 22px;
+            border-left: 1px solid #DDD;
+            padding-left: .5em;
+        }
+        button {
+            background-color: $gfooter;
+            color: $white;
+            padding: 1em 0;
+            width: 100%;
+            border-radius: 4px;
+            font-family: 'cairo-bd';
+            margin-top: 4.35em;
+            line-height: 2;
+        }
+    }
+}
+.selecting-category {
+    overflow: hidden;
+    background: url(../images/024.png) no-repeat 15px;
+    background-color: rgb(255, 255, 255);
+    height: 4em;
+    width: 100%;
+    border-radius: 4px;
+    select {
+        height: 4em;
+        padding-right: 1em;
+        width: 100%;
+        background: transparent !important;
+        background-image: none;
+        -webkit-appearance: none;
+        // border: none;
+    }
+}

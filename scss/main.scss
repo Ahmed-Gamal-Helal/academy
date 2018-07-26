@@ -1,0 +1,313 @@
+@font-face {
+    font-family: 'cairo-b';
+    src: url('../fonts/cairo/Cairo-Black.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'cairo-r';
+    src: url('../fonts/cairo/Cairo-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'cairo-bd';
+    src: url('../fonts/cairo/Cairo-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'cairo-lt';
+    src: url('../fonts/cairo/Cairo-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'cairo-sb';
+    src: url('../fonts/cairo/Cairo-SemiBold.ttf') format('truetype');
+}
+@import 'variables';
+
+
+/*** Start Global Properties ***/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing   : border-box;
+    -o-box-sizing     : border-box;
+    box-sizing        : border-box;
+}
+
+html, 
+body {
+    margin: 0;
+    height: 100%;
+    font-family: $baseFont;
+    direction: rtl;
+}
+body {
+    background-color: #f1f1f1;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'cairo-bd';
+}
+a {
+    font-family: 'cairo-bd';
+	line-height: 1.7;
+	margin: 0px;
+	-webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    &:hover {
+        text-decoration: none;
+    }
+    &:focus {
+        outline: none !important;
+    }   
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+input, textarea {
+	outline: none;
+    // border: none;
+    &::placeholder {
+        font-family: $baseFont !important;
+        color: #DDD !important;
+    }
+}
+
+button {
+	outline: none !important;
+    border: none;
+    font-family: $baseFont;
+    background: transparent;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+img {
+    // min-width: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all .25s ease-in-out; 
+}
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: transparent;
+}
+.width-adjust {
+    width: 100% !important;
+}
+.upload-it {
+    padding-top: 1.2em;
+    padding-right: 0 !important;
+}
+input.wizard, select.wizard {
+    height: 4em;
+    border: 1px solid #dbdbdb;
+    background-color: transparent;
+    border-radius: 4px;
+    width: 100%;
+}
+input.personal-passport {
+    padding-top: 1.2em;
+    border: none;
+    background-color: $white;
+}
+.padding-adjust {
+    padding: 1.2em;
+}
+.margin-left-8 {
+    margin-left: 8px !important;
+}
+.margin-adjust-table {
+    margin-top: 3em;
+}
+.fa-trash {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.home-search-drop {
+    color: $black !important;
+}
+/*** End Global Properties ***/
+
+/*** Start Upper-Header ***/
+@import '_upper-header';
+/*** End Upper-Header ***/
+
+/*** Start _home ***/
+@import '_train-learn';
+/*** End _home ***/
+
+/*** Start _all-departs ***/
+@import '_all-departs';
+/*** End _all-departs ***/
+
+/*** Start _members-posts ***/
+@import '_members-posts';
+/*** End _members-posts ***/
+
+/*** Start _sliding ***/
+@import '_sliding';
+/*** End _sliding ***/
+
+/*** Start _about ***/
+@import '_about';
+/*** End _about ***/
+
+/*** Start _login-form ***/
+@import '_login-form';
+/*** End _login-form ***/
+
+/*** Start _courses ***/
+@import '_courses';
+/*** End _courses ***/
+
+/*** Start _timeline ***/
+@import '_timeline';
+/*** End _timeline ***/
+
+/*** Start discussions-second ***/
+@import '_discussions-second';
+/*** End discussions-second ***/
+
+/*** Start wall-third ***/
+@import '_wall-third';
+/*** End wall-third ***/
+
+/*** Start nots-forth ***/
+@import '_nots-forth';
+/*** End nots-forth ***/
+
+/*** Start _about-subject ***/
+@import '_about-subject';
+/*** End _about-subject ***/
+
+/*** Start _consultion ***/
+@import '_consultion';
+/*** End _consultion ***/
+
+/*** Start _library ***/
+@import '_library';
+/*** End _library ***/
+
+/*** Start _profile-account ***/
+@import '_profile-account';
+/*** End _profile-account ***/
+
+/*** Start _services ***/
+@import '_services';
+/*** End _services ***/
+
+/*** Start _form-wizard. ***/
+@import '_form-wizard.';
+/*** End _form-wizard. ***/
+
+/*** Start _fitness ***/
+@import '_fitness';
+/*** End _fitness ***/
+
+/*** Start _payment-methods ***/
+@import '_payment-methods';
+/*** End _payment-methods ***/
+
+/*** Start _employment-vacancies ***/
+@import '_employment-vacancies';
+/*** End _employment-vacancies ***/
+
+/*** Start media-query***/
+@import '_media-query';
+/*** End media-query ***/
+
+/*** Start Footer ***/
+@import '_footer';
+/*** End Footer ***/
+
+
+/* fluid 5 columns */
+.grid-sizer,
+.grid-item { width: 20%; }
+/* 2 columns wide */
+// .grid-item--width2 { width: 40%; }
+.grid {
+    width: 100%;
+}
+
+.baqat {
+    margin: 8em 0;
+    .general-baqa {
+        background-color: white;
+        border: 1px solid #DDD;
+        margin-bottom: 2em;
+        transition: all .25s ease-in-out;
+        min-height: 600px;
+        position: relative;
+        &:hover {
+            transform: translateY(-8px);
+        }
+        h3 {
+            margin: 0;
+            padding: 1.5em 0;
+            border-bottom: 1px solid #DDD;
+            color: $gold;
+            background-color: #117a86;
+        }
+        .money-move {
+            background-color: #478a92;
+            padding: 2em 0;
+            color: white;
+            span {
+                display: block;
+            }
+            span:first-child {
+                font-size: 36px;
+            }
+        }
+        ul {
+            padding: 1em 0;
+            li {
+                line-height: 2.5;
+                color: #636363;
+                font-size: 14px;
+            }
+        }
+        .button-part {
+            padding: 2em 0;
+            border-top: 1px solid #DDD;
+            background-color: #f1fdff;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            a {
+                background-color: #117a86;
+                color: white;
+                padding: .5em 1.5em;
+                border-radius: 4px;     
+                &:hover {
+                    color: $black;
+                }       
+            }
+        }
+    }
+    .active {
+        transform: scale(1.075);
+        h3 {
+            background-color: #00bdbd;
+            color: white;
+        }
+    }
+}

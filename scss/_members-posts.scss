@@ -1,0 +1,134 @@
+.members-posts {
+    background: url(../images/017.png);
+    width: 100%;
+    background-size: cover;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 3em 0;
+    h3 {
+        position: relative;
+        color: $white;
+        margin: 1em 0 2em 0;
+        &::before {
+            content: "";
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            top: 1.6em;
+            width: 20px;
+            height: 4px;
+            background: $gfooter;
+            z-index: 2;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            top: 1.65em;
+            width: 180px;
+            height: 2px;
+            background: $white;
+        }
+    }
+    .posts {
+        .owl-carousel {
+            .item {
+                width: 90%;
+                h5 {
+                    a {
+                        color: $white;
+                        font-size: 16px;
+                    }
+                }
+                .waha {
+                    color: $gfooter;
+                    font-size: .9em;
+                }
+            }
+        }
+    }
+    .sayings {
+        .owl-carousel {
+            .item {
+                img {
+                    height: 6em;
+                    width: 4em;
+                    margin: auto;
+                }
+                p {
+                    color: #FFF;
+                    margin: 1em 0;
+                    font-family: 'cairo-r';
+                    font-size: 14px;
+                    padding: 0 2em 1em;
+                    line-height: 2.5;
+                }
+                a {
+                    margin: 1em 0;
+                    font-size: 17px;
+                    color: $gfooter;
+                }
+                .owl-dots {
+                    margin-top: 1em !important; 
+                }
+            }
+        }
+    }
+}
+.ask-about-trainers {
+    background: url(../images/019.png);
+    width: 100%;
+    background-size: cover;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5em 0;
+    margin: 5em 0;
+    h3 {
+        color: $white;
+        margin: 0.75em 0 3em 0;
+    }
+    form {
+        .form-group {
+            position: relative;
+            width: 75%;
+            margin: auto;
+            margin-bottom: 5em;
+            input, button {
+                height: 49.06px;
+                border-radius: 2em;
+            }
+            button {
+                position: absolute;
+                left: 0;
+                top: 0;
+                background-color: $gold;
+                padding: 0 2em;
+                color: $black;
+                font-family: 'cairo-sb';
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+a.all-of-them,
+button.all-of-them  {
+    background-color: $gfooter;
+    color: $white;
+    border-radius: 4px;
+    font-family: 'cairo-bd';
+    padding: .75em 2em;
+    font-size: 16px;
+    &:hover {
+        background-color: #2bbbad;
+    }
+}
+button.all-of-them {
+    margin-top: 2em;
+}

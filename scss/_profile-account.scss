@@ -1,0 +1,195 @@
+.profile-account {
+    margin: 5em 0;
+    textarea {
+        height: 10em
+    }
+    .profile-account-one {
+        a {
+            border-radius: 50%;
+            line-height: 4.5;
+            img {
+                width: 4em;
+                border-radius: 50%;
+                height: 4em;
+            }
+        }
+    }
+    .profile-account-two {
+        margin-top: 2em;
+        ul {
+            li.active, li:hover {
+                background-color: $gfooter;
+                a {
+                    color: $white;
+                }
+            }
+            li {
+                position: relative;
+                padding-right: 3.5em;
+                cursor: pointer;
+                a {
+                    font-family: 'cairo-sb';
+                    line-height: 3.5;
+                    color: $gfooter;
+                    font-size: 16px;
+                    img {
+                        position: absolute;
+                        height: 18px;
+                        width: 25px;
+                        right: .75em;
+                        top: 18px;
+                    }
+                }
+            }
+        }
+    }
+    .profile-account-three {
+        a:nth-child(1) {
+            color: $gfooter;
+        }
+        a:nth-child(2),
+        a:nth-child(3) {
+            color: $black;
+            font-family: 'cairo-r';
+            font-size: 11px;
+        }
+    }
+    .main-profile {
+        margin: 0;
+        .form-login {
+            padding: 2em;
+            form {
+                input[disabled] , select[disabled] {
+                    background-color: #f1f1f1;
+                }
+            }
+        }
+    }
+}
+.image-editing {
+    margin-bottom: 2.5em;
+    a {
+        color: $gfooter;
+    }
+    img {
+        width: 4em;
+        border-radius: 50%;
+        height: 4em;
+        margin-left: 1em;
+    }
+}
+.membership-data {
+    background-color: $white;
+    padding: 2em;
+    min-height: 35em;
+    .nav-tabs {
+        li {
+            a {
+                color: #c7c7c7;
+            }
+        }
+    }
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+        color: $gold;
+        border: none;
+        border-bottom: 2px solid;
+    }
+    .add-qualification {
+        margin: 3em 0;
+        button:first-child {
+            color: $gfooter;
+            font-size: 16px;
+            background-color: transparent;
+            span {
+                margin-left: .5em;
+                i {
+                    border: 1px solid;
+                    border-radius: 50%;
+                    height: 1.35em;
+                    width: 1.3em;
+                    text-align: center;
+                    line-height: 1.288;
+                }
+            }
+        }
+    }
+    table {
+        thead {
+            tr {
+                th {
+                    background-color: #f1f1f1 !important;
+                    color: $gfooter;
+                    padding: .75em 1.5em;
+                }
+            }
+        }
+        tbody {
+            tr {
+                td, th {
+                    padding: 2em 1.5em;
+                    font-family: 'cairo-sb';
+                }
+                td.certified {
+                    color: #33bc33;
+                }
+                td {
+                    a {
+                        color: $black;
+                    }
+                    p {
+                        // overflow: hidden;
+                        // white-space: nowrap;
+                        // text-overflow:  ellipsis; 
+                    }
+                }
+            }
+        }
+    }
+    .seperate-list {
+        margin-bottom: 2em;
+        h5 {
+            margin: 3em 0 2em 0;
+            color: $gold;
+        }
+        ul {
+            li {
+                line-height: 2.5;
+            }
+        }
+    }
+}
+#qualifications-3,
+#qualifications-4 {
+    .social-contacts, .files-uploading {
+        margin-top: 3em;
+        .form-group {
+            margin-bottom: 2.5em;
+            label {
+                color: $gfooter;
+                margin-bottom: 1.5em;
+            }
+        }
+    }
+}
+#cke_editor {
+    margin-bottom: 1.5em !important;
+}
+#add-your-post {
+    margin: 3em 0;
+}
+.font-janna {
+    color: $gfooter !important;
+}
+p.member-details {
+    line-height: 2;
+    margin: 1em 0;
+    font-family: 'cairo-sb';
+}
+#said-about-academy {
+    margin: 1em 0;
+}
+#new-message {
+    .col-sm-12 {
+        padding: 0 15px 0 15px;
+    }
+}

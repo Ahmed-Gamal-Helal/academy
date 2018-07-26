@@ -1,0 +1,194 @@
+.all-departs {
+    background-color: $bg;
+    padding: 4em 0;
+    .input-group {
+        width: 75%;
+        margin: auto;
+        button.search-now {
+            position: absolute;
+            left: 0;
+            z-index: 99;
+            background-color: $gfooter;
+            color: $white;
+            height: 49.06px;
+            padding: 0 2em;
+            border-radius: 2em;
+            font-family: 'cairo-bd';
+            &:hover {
+                // box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+                background-color: #2bbbad;
+            }
+        }
+        button.dropdown-toggle {
+            padding: 1em;
+            background-color: $white;
+            border-bottom-right-radius: 2em;
+            border-top-right-radius: 2em;
+            font-family: 'cairo-bd';
+        }
+        input {
+            height: 49.06px;
+            border: none;
+            box-shadow: none;
+            border-bottom-left-radius: 2em !important;
+            border-top-left-radius: 2em !important;
+            border-right: 1px solid $bg;
+        }
+    }
+    .dropdown-menu {
+        border: 1px solid $white;
+        margin: 0;
+    }
+
+}
+.dropdown-menu>li>a {
+    font-family: 'cairo-r';
+}
+.all-courses, .last-trainees, .said-about-us {
+    h4 {
+        position: relative;
+        margin: 3em 0 5em 0;
+        &::before {
+            content: "";
+            position: absolute;
+            right: 48.5%;
+            left: 0;
+            top: 1.87em;
+            bottom: 0;
+            width: 20px;
+            height: 4px;
+            background: $gfooter;
+            z-index: 2;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            right: 44%;
+            left: 0;
+            top: 1.95em;
+            bottom: 0;
+            width: 136px;
+            height: 2px;
+            background: #e4e4e4;
+        }
+    }
+}
+.said-about-us {
+    h4 {
+        color: $white;
+        margin: 1em 0 3em 0;
+    }
+}
+.all-courses {
+    .economy-management {
+        .row-example {
+            border-bottom: 1px solid $black;
+            position: relative;
+            margin-bottom: 2em;
+            height: 500px;
+            background-color: $white;
+            &::after {
+                content: "";
+                position: absolute;
+                right: 0;
+                left: 0;
+                bottom: -3px;
+                width: 97%;
+                height: 1px;
+                background: #000000;
+                margin: auto;
+            }
+            .seperate-img {
+                position: relative;
+                img {
+                    height: 224px;
+                }
+                .hinting-dash {
+                    position: absolute;
+                    top: 1.5em;
+                    right: 1.5em;
+                    background-color: $white;
+                    padding: .5em 1em;
+                    width: 122px;
+                    border-radius: 4px;
+                    text-align: center;
+                    a {
+                        color: $black;
+                        font-family: 'cairo-r';
+                    }
+                }
+            }
+            .seperate-desc {
+                background-color: white;
+                padding: 2em 1.5em 1.5em 1.5em;
+                a {
+                    color: $black;
+                    font-size: 17px;
+                }
+                p {
+                    font-size: 14px;
+                    line-height: 2;
+                    margin: 1.3em 0;
+                    font-family: 'cairo-lt';
+                }
+                .rating-stars {
+                    .fa-star, .fa-star-o {
+                        color: $gold;
+                    }
+                }
+            }
+        }
+    }
+    .all-departs-link {
+        margin: 5em 0 3em 0;
+        a {
+            border: 1px solid #DDD;
+            padding: .5em 4em;
+            border-radius: 4px;
+            color: $black;
+            &:hover {
+                border: 1px solid $black;
+            }
+        }
+    }
+}
+button.get-it-now {
+    background-color: $gfooter;
+    padding: .5em 2em;
+    font-family: 'cairo-bd';
+    color: $white;
+    border-radius: 4px;
+    margin-top: 1.5em;
+    &:hover {
+        background-color: #2bbbad;
+    }
+}
+.advertising-two {
+    margin-bottom: 2em;
+    // height: 493px;
+    text-align: center;
+    position: relative;
+    img {
+        width: auto;
+    }
+    .advertising-two-span {
+        position: absolute;
+        top: 1em;
+        right: 1em;
+        span {
+            color: #9d1621;
+        }
+    }
+    .advertising-two-a {
+        position: absolute;
+        bottom: 3em;
+        right: 2em;
+        a {
+            color: $white;
+            font-size: 1.5em;
+        }
+    }
+}
+.portfolio {
+    margin-bottom: 30px;
+}
